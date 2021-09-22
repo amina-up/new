@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@media screen and (min-width : 992px){
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #eaeaea;
+}
+}
+@media screen and (max-width : 991px){
+nav {
+  padding: 20px 30px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+}
+nav button{
+  border:0 !important;
+  outline: 0 !important;
+  color: #fff !important;
+}
